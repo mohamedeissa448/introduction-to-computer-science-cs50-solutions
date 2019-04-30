@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Symbol Quoted
+{% endblock %}
+
+{% block main %}
+    <div><label>A share of {{dict["name"] }} ({{dict["symbol"]}}) costs ${{ dict["price"] }}</label></div>
+{% endblock %}
